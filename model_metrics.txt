@@ -1,0 +1,24 @@
+Model: K-Means
+Hyperparameters: n_clusters=7, random_state=42
+Number of Clusters: 7
+Silhouette Score: 0.260
+
+Model: Affinity Propagation
+Hyperparameters: random_state=42
+Number of Clusters: 443
+Silhouette Score: 0.417
+
+Model: Spectral Clustering
+Hyperparameters: n_clusters=15, random_state=42
+Number of Clusters: 15
+Silhouette Score: 0.851
+
+Model: Agglomerative Clustering
+Hyperparameters: n_clusters=2, distance_threshold=1.0
+Number of Clusters: 2
+Silhouette Score: 0.352
+
+Model: DBSCAN
+Hyperparameters: eps=2, min_samples=3
+Number of Clusters: 37
+Silhouette Score: 0.46882936315905754
